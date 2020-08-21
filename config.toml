@@ -1,6 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Lotachi - Product Designer"
+title = "Hi, I'm Lotachi"
 theme = "hello-friend"
 
 [taxonomies]
@@ -20,7 +20,9 @@ theme = "hello-friend"
   handle = "lottabydesign"
   images = [""]
 
-  homeSubtitle = "I am a UI/UX designer focused on more people more beautifule"
+  [params.homeSubtitle]
+    partone = "A designer and product leader - passionate about"
+    parttwo = "technology, art and how they shape our human experience"
 
   # Toggle this option need to rebuild SCSS, requires extended version of Hugo
   justifyContent = false  # Set "text-align: justify" to .post-content.
